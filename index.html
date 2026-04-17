@@ -3,18 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
+    <title>Portfólio</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
+
     <header>
-        <nav class="navbar">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="">Home</a></li>
-                <li class="nav-item"><a href="">Cursos</a></li>
-                <li class="nav-item"><a href="">Habilidades</a></li>
-                <li class="nav-item"><a href="">Projetos</a></li>
-            </ul>
-        </nav>
+        <div class="header-container">
+            <h1>Developer Full Stack</h1>
+
+            <nav class="nav-bar">
+                <a href="#sobre">Sobre</a>
+                <a href="#formacao">Formação</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
     </header>
+
+
+    <section id="sobre">
+        <div class="sobre-container-geral">
+            <h2>Sobre Mim</h2>
+
+            <div class="sobre-container">
+
+                <div class="sobre-texto">
+                    <h1>Arthur Braga</h1>
+                    <p>
+                    Sou um desenvolvedor em início de carreira, apaixonado por tecnologia e em constante aprendizado. Tenho estudado HTML, CSS e JavaScript, buscando evoluir minhas habilidades e construir projetos cada vez mais completos.
+                    </p>
+                    <p>
+                    Estou sempre em busca de novos desafios e oportunidades para crescer como desenvolvedor, aprimorar minhas práticas e ganhar experiência no desenvolvimento de aplicações reais.
+                    </p>
+                </div>
+
+                <img src="IMG/Mídia.jpg" alt="Minha foto">
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="formacao">
+        <h2>Formação</h2>
+
+        <div class="formacao-container">
+
+            <div class="formacao-card">
+                <h3>Cursando: Ciência da Computação</h3>
+                <p>UCDB</p>
+                <span>Inicio: 2026</span>
+            </div>
+
+            <div class="formacao-card">
+                <h3>Cursando: Tecnico em desenvolvimento de sistemas</h3>
+                <p>Senac MS</p>
+                <span>Inicio: 2025</span>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+
+        <div class="habilidades-container">
+
+            <div class="habilidade-card">
+                <h3>HTML</h3>
+                <div class="barra">
+                    <div class="progresso" style="width: 40%;"></div>
+                </div>
+                <span>40%</span>
+        </div>
+
+        <div class="habilidade-card">
+            <h3>CSS</h3>
+            <div class="barra">
+                <div class="progresso" style="width: 40%;"></div>
+            </div>
+            <span>40%</span>
+        </div>
+
+        <div class="habilidade-card">
+            <h3>JavaScript</h3>
+            <div class="barra">
+                <div class="progresso" style="width: 15%;"></div>
+            </div>
+            <span>15%</span>
+        </div>
+
+        <div class="habilidade-card">
+            <h3>Python</h3>
+            <div class="barra">
+                <div class="progresso" style="width: 40%;"></div>
+            </div>
+            <span>40%</span>
+        </div>
+
+    </div>
+    </section>
+
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+
+        <div class="projetos-container">
+
+            <div class="projeto-card">
+                
+                <div class="projeto-info">
+                    <h3>Site de Sushi</h3>
+                    
+                    <p>Recriação de um site simples de venda de sushis.</p>
+
+                    <div class="projeto-links">
+                        <a href="https://arthur-programer.github.io/site-sushi/" target="_blank">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-container">
+
+            <p>&copy;2026 - Arthur braga</p>
+
+            <div class="footer-links">
+                <a href="https://github.com/Arthur-programer" target="_blank" class="footer-btn">
+                    💻 GitHub
+                </a>
+
+                <a href="mailto:arthur.braga.recalde@gmail.com" class="footer-btn">
+                    📧 Email
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
 </body>
 </html>

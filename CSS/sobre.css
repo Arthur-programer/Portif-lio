@@ -1,0 +1,42 @@
+#sobre {
+    padding: 60px 20px;
+}
+
+.sobre-container-geral {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#sobre h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #22c55e;
+    margin: 10px auto 0;
+}
+
+.sobre-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.sobre-texto {
+    max-width: 500px;
+    text-align: left;
+}
+
+.sobre-texto p {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.sobre-container img {
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid #22c55e;
+}
